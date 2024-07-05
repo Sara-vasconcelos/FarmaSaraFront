@@ -1,4 +1,5 @@
 import React from 'react';
+import ListaCategoria from '../../components/categorias/listaCategoria/ListaCategoria';
 //import homeLogo from '../../assets/home.png'
 //import './Home.css';
 
@@ -24,7 +25,7 @@ function Home() {
             </div>
           </div>
         </div>
-      
+      <ListaCategoria/>
       </>
     );
 }
